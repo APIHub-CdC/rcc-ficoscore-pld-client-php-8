@@ -12,8 +12,8 @@ PHP 8.1 ó superior
 - En caso de no ser así, para linux use los siguientes comandos
 ```sh
 #ejemplo con php en versión 8.1 para otra versión colocar php{version}-curl
-apt-get install php7.3-curl
-apt-get install php7.3-mbstring
+apt-get install curl
+apt-get install php8.1-mbstring
 ```
 - Composer [vea como instalar][1]
 ## Instalación
