@@ -1,0 +1,38 @@
+{
+    "name": "apihub-cdc/rcc-ficoscore-pld-client",
+    "description": "",
+    "keywords": [
+        "apihub",
+        "php",
+        "sdk",
+        "api"
+    ],
+    "homepage": "http://developer.circulodecredito.com.mx",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "APIHub and contributors",
+            "homepage": "https://github.com/APIHub-CdC"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2",
+        "monolog/monolog": "^1.24",
+        "apihub-cdc/signature-manager": "^1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~2.12"
+    },
+    "autoload": {
+        "psr-4": { "RCCFSPLD\\MX\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "RCCFSPLD\\MX\\Client\\" : "test/" }
+    }
+}
